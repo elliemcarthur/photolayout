@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+
+      <head>
+	        <meta charset="utf-8"><link rel="stylesheet" type="text/css" href="stylesheets/framework_file.css">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Photography Portfolio</title>
+          <link href="stylesheet.css" rel="stylesheet">
+         <link href="https://fonts.googleapis.com/css?family=Damion|Fondamento|Luckiest+Guy" rel="stylesheet">
+          
+			<style>
+             
+
+                form{
+                    margin-left: 0 auto;
+                    margin-right: 0 auto;
+                    overflow: auto;
+                     font-size: 20px;
+                }
+                
+                .n{
+                    
+                    float:left;
+                    clear:left;
+                    padding: 2.5%;
+                   margin-right: 12%;
+                             
+                }
+                #name, #tel, #email{
+                    color: #000000;
+                    text-align: left;
+                    font-size: 20px;
+                    width: 124%;
+                    padding: 0.5%;
+                }
+                .tele{
+                    float:left;
+                    padding:2.5%;
+                    margin-right: 12%;
+                }
+                .e{
+                    float:left;
+                    padding:2.5%;
+                  
+                }
+                .mes{
+                    float:left;
+                    padding-left:2.5%;
+                    padding-bottom: 2.5%;
+                    clear:both;
+                }
+                textarea{ 
+                    height: 150px;
+                    width:500%;
+                    resize: none;
+                    color: #000000;
+                    font-size: 20px;
+                    text-align: left;
+                    box-sizing: border-box;
+                                     
+                 }
+                .button{
+                    float:left;
+                    clear: left;
+                    padding: 2.5%;
+                
+                }
+                #submit{
+                    border-style:ridge;
+                  background-color: #121512;
+                    color:#f2f1f1;
+                    padding: 20%;
+                }
+
+          </style>
+			</head>
+			<body>
+                <header>
+                    <h1><a href="index.html">Leah Smith - The Ultimate Photographer</a></h1>
+                    <nav>
+                    <a href="landscapes.html">Landscapes |</a>
+                        <a href="animals.html">Animals! |</a>
+                        <a href="weddings.html">Weddings &#9825; |</a>
+                        <a href="contact.html">Contact |</a>
+                       </nav>
+                </header>
+                <main>
+                    <div class="box1">
+                        <h2>
+                        Contact Us</h2>
+                        <p class="purple">
+                            Leah Smith <br>
+                            1234 Lexington Avenue<br>
+                            New York, NY 10001<br>
+                            leahs@email.com
+                        </p>
+                    </div>
+                        <div class="box">
+             <form action="login.php" method="post">
+            <div class="n">
+                <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" maxlength="18">
+            
+            </div>
+            <div class="tele">
+            <label for="tel">Telephone</label><br>
+            <input type="tel" name="tel" id="tel" required>
+            </div>
+            <div class="e">
+            <label for="email">E-Mail</label><br>
+            <input type="email" name="email" id=email required>
+            </div>
+            <div class="mes">
+            <label for="message">Message</label><br>
+            <textarea  id="message" name="Message"></textarea>
+            </div>
+            <div class="button">
+  <input type="submit" value="Submit" id="submit">
+            </div>
+                </form>
+                        
+                    </div>
+                   
+                    </main>
+                <footer>Note: All Pictures Have Copyright |
+                Copyright &copy; 2017 Leah Smith</footer>
+			   
+					
+					</body>
+					
+					</html>

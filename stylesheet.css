@@ -1,0 +1,190 @@
+body{
+background-color: black;
+}
+
+h1{
+    text-align: center;
+    background-image:url(Indexphotos/background.jpg);
+    border: 5px bold #f7f5f5;
+    font-size: 400%;
+    padding: 2.5%;
+    margin-bottom: 0;
+}
+*{color:#f0e3fc;
+    font-family:  'Damion', cursive;
+    text-align: center;
+    
+
+}
+    
+h1 a{
+    font-family: 'Damion', cursive;
+    text-decoration:none;
+    text-align: center;
+    color:#f0e3fc;
+}
+.box1 .text{
+    text-align: center;
+}
+nav{
+    text-align: center;
+    background-color:   #000000;
+    border: 5px bold #f7f5f5;
+    font-size: 200%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5;
+ 
+    
+}
+nav a{
+    font-family:  'Damion', cursive;
+    text-decoration:none;
+    text-align: center;
+    color:#f0e3fc;
+    
+}
+.box{
+    background-image: url(Indexphotos/background.jpg);
+    padding: 2.5%;
+    margin-top:0;
+	margin-bottom:2.5%;
+}
+
+.box .text{
+	text-align:center;
+}
+.box1{
+    background-image: url(Indexphotos/background.jpg);
+    padding: 2.5%;
+    margin-top: 2.5;
+	margin-bottom: 2.5%;
+    
+    overflow: auto;
+}
+
+h2{
+    font-size: 300%;
+}
+p{
+    font-size: 150%;
+    text-align: left;
+}
+.img{
+    float: left;
+    clear:left;
+    margin-left: 4.5%;
+    margin-right: 3.5%;
+   
+}
+
+ .purple{
+    text-align: center;
+}
+purple{
+    
+}
+.box1 a{
+    float:left;
+    clear:both;
+    
+}
+.canon, .canon1{
+    width: 40%;
+}
+/* landscape file */
+
+.box2 .textfloat, .purple3{
+	float:left;
+}
+.field1{
+	width:50%;
+}
+
+.purple2{
+	width:48%;
+}
+
+.roc{
+	width:80%;
+}
+.rabbit{
+    width:42%;
+}
+.lights{
+	width: 100%;
+    padding:0;
+    margin: 0;
+   
+}
+.box5{
+    background-image: url(Indexphotos/background.jpg);
+    margin-top: 2.5;
+	margin-bottom: 2.5%;
+    
+    overflow: auto;
+}
+.purple3{
+    max-width:50%;
+    float: left;
+    clear:left;
+    margin: 0;
+  padding:2.5%;
+   text-align: justify;
+}
+.lp{
+    margin: 0;
+    padding:2.5%;
+}
+
+@media screen and (min-width: 405) and (max-width: 1100px) {
+   
+    h1, a, h2, p{
+        font-size: 20px;
+    }
+    .rabb{
+       width:50%; 
+    }
+   
+    .n{
+        display: none;
+    }
+}
+@media screen and (max-width: 404.9px) {
+    body, nav{
+        background-color: #000000;
+        overflow: hidden;
+    }
+    h1, a, h2, p{
+        font-size: 20px;
+    }
+    .rabb{
+       width:50%; 
+    }
+    form{
+        display: none;
+    }
+    .box{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 405px) and (max-width: 800px) {
+    body{
+        background-color:rgb(9, 114, 139) !important;
+    }
+    *{
+        font-size: 20px !important;
+    }
+    textarea{
+        width: 200% !important;
+    }
+    .n, .tele, .e{
+        clear:both !important;
+    }
+    .rabb{
+       width:50%; 
+    }
+   
+   
+}
